@@ -184,9 +184,7 @@ class UnaryOpNode:
 	def __repr__(self):
 		return f'({self.op_tok}, {self.node})'
 
-#######################################
-# PARSE RESULT
-#######################################
+
 
 class ParseResult:
 	def __init__(self):
